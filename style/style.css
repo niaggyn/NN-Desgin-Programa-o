@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html , body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(34, 31, 31, 0.699);
+}
+
+body {
+    background: url(../img-minha-versao/fundo_trabalho.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;  /*Posicionamento inicial*/
+    
+}
+
+section#phone {
+    height: 627px;
+    width: 311px;
+    background-color: transparent;
+
+    position: absolute; /*Posicionamento do objeto com ref no main*/
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background: transparent url(../img-minha-versao/frame-iphone.png) no-repeat center;
+}
+
+iframe#tela {
+    position: relative;
+    height: 471px;
+    width: 265px;
+    top: 80px;
+    left: 22px;
+}
+section#redes {
+    text-align: center;
+    position: relative;
+}
+section#redes img {
+    transform: translate(-160%, 100%);
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+}
+section#redes img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.921);
+}
+
+
